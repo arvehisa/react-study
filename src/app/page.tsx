@@ -1,4 +1,4 @@
-import styles from "../style/page.module.css";
+import styles from "../styles/page.module.css";
 import { Documents } from "../components/Documents";
 import { Logo } from "../components/Logo";
 import { Headline } from "../components/Headline";
