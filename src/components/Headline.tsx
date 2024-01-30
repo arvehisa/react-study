@@ -1,7 +1,11 @@
 import styles from "../app/page.module.css";
 import { VercelLogo } from "./VercelLogo";
 
-export function Headline(props) {
+type HeadlineProps = {
+    page: string;
+}
+
+export function Headline(props: HeadlineProps) {
   console.log(props);
   return (
       <div className={styles.description}>
