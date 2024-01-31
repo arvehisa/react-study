@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../styles/page.module.css";
+import styles from "./VercelLogo.module.css";
 
 export function VercelLogo() {
   return (
