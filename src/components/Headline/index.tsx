@@ -1,5 +1,5 @@
-import styles from "./Headline.module.css";
-import { VercelLogo } from "./VercelLogo";
+import { VercelLogo } from "@/components/VercelLogo";
+import styles from "@/components/Headline/Headline.module.css";
 
 type HeadlineProps = {
     page: string;

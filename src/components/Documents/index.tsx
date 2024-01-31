@@ -1,4 +1,4 @@
-import styles from "./Documents.module.css";
+import styles from "@/components/Documents/Documents.module.css";
 
 const ITEMS = [
   {
