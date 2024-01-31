@@ -27,7 +27,7 @@ export function Documents() {
   return (
       <div className={styles.grid}>
         {ITEMS.map((item) => (
-            <a  className={styles.card} href={item.href} target="_blank">
+            <a key={item.href} className={styles.card} href={item.href} target="_blank">
               <h3 className={styles.title}> {item.title} </h3>
               <p className={styles.description}> {item.description} </p>
             </a>
